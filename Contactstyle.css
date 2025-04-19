@@ -1,0 +1,60 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    }
+    /*header code*/
+        li,a{
+        font-weight: 400;
+        font-size:16px;
+        color:black;
+        text-decoration: none;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center ;
+        padding: 10px 5%;
+    }
+    .logo{
+        cursor: pointer;
+    }
+    .nav_links li{
+        display: inline-block;
+        padding: 0px 10px;
+    }
+    /*header code*/
+    /*body code*/
+    img{
+    float: right;  
+    width: 50%;
+    opacity: 0.9;
+    margin-top: 40px;
+    }
+    .title{
+    background-color: #eab2d992;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    color:#000000;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.648);
+    }
+    .left{
+        position: absolute;
+        top: 50%;
+        margin-left: 35%;
+        transform: translate(-50%, -50%);
+        width:50%;
+        margin-top: 55px;
+    }
+    #Button{
+    text-align: center;
+    margin-left: 15%;
+    background-color:#eab2d992;;
+    padding: 10px;
+    border:none;
+    margin-top: 15px;
+    }
+    input, textarea{
+        padding: 10px;
+        margin-top: 15px;
+    }
